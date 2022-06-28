@@ -12,5 +12,9 @@ namespace Domain.Entities
             Console.WriteLine("Herbs: " + Herbs);
 
         }
+        public override void GetMyType()
+        {
+            Console.WriteLine("Biological");
+        }
     }
 }
